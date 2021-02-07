@@ -1,0 +1,320 @@
+/*---------------- Fonts --------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic');
+/*---------------- Base settings ------------*/
+body{
+	min-width: 320px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #626262;
+	margin: 0 auto;
+	padding: 0;
+}	
+header{
+	position:relative;
+	width:100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	margin: auto;
+}
+
+/*--------------- Navbar --------------------*/
+.navbar-brand {
+	font-family: 'Roboto', sans-serif,
+	font-size: 30px;
+}
+.navbar-nav {
+	display: inline-block;
+	text-align: center
+}
+	.nav-item {
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+		font-weight: 500;
+		text-align: left;
+		padding-left: 50px;
+	}
+	.nav-item span {
+		font-size: 26px;
+		padding-left: 10px;
+	}
+
+/*--------------- Header banner -------------*/
+.banner{
+	background: url(../img/header_background3.jpg)no-repeat; 
+	text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding: 100px 0 250px 0;
+	margin: 0;
+}
+.banner-heading{
+	font-family: 'Roboto', sans-serif;
+	font-size: 75px;
+    font-weight: 900;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+.banner-phone{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+	color:#fff;
+}
+/* mobile view */
+@media (max-width:500px)
+{
+
+.banner-text{
+	padding:50px 0 150px 0;
+}
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+}
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+}
+/* ---------- / Navbar & Banner --------------*/
+/*----------- Page header -------------------------*/
+.page-header { 
+	position: relative; 
+	background-size: cover;
+	height: 90vh;
+	vertical-align: top; 
+}
+.page-title { 
+	font-size: 46px; 
+	line-height: 1; 
+	color: #fff; 
+	font-weight: 600; 
+	text-align: center; 
+}
+/* --------------- /Header -----------------*/
+/*---------------- Header Card -------------*/
+.card-section { 
+	position: relative; 
+	bottom: 90px; 
+}
+.card-block { 
+	padding: 30px; 
+}
+.section-title { 
+	margin-bottom: 80px; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+
+}
+/*---------------- /Header Card -------------*/
+
+
+/*---------------- Service boxes ------------*/
+.sec-title-container {
+	text-transform: uppercase;
+}
+.jy-feature-box {
+	width:240px;
+	height:240px;
+	float:left;
+	border-radius:100%;
+	border:1px solid #626262;
+}
+.jy-sub-title {
+	font-size: 16px;
+	text-transform: none !important;
+	padding-bottom: 15px;
+}
+/*----------------- /Service boxes -----------*/
+/*----------------- How It Works -------------*/
+.how-section1 {
+    margin-top:-15%;
+    padding: 1%;
+}
+	.how-section1 h4 {
+	    color: #ffa500;
+	    font-weight: bold;
+	    font-size: 30px;
+	}
+	.how-section1 .subheading {
+	    color: #3931af;
+	    font-size: 20px;
+	}
+	.how-section1 .row {
+	    margin-top: 10%;
+	}
+.how-img {
+    text-align: center;
+}
+	.how-img img{
+	    width: 40%;
+	}
+/*------------- Service Promo ----------*/
+.service-promo-item {
+  background: #f8f8f9;
+  margin-bottom: 6.25rem;
+}
+
+.service-promo-item:last-child {
+  margin-bottom: 0;
+}
+
+.service-promo-item-photo {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+	.service-promo-item-photo img {
+	  width: 100%;
+	}
+
+.service-promo-item-detail,
+.no-gutters > .service-promo-item-detail {
+  background: #f5f5f5;
+  padding: 4rem 4.5rem 3.5rem;
+}
+
+.service-promo-item-title {
+  margin-bottom: 18px;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+  padding-left: 1.25rem;
+}
+
+.service-promo-item .nav.flex-column li {
+  margin-bottom: .625rem;
+}
+
+@media (min-width: 1200px) {
+  .service-promo-item-detail,
+  .no-gutters > .service-promo-item-detail {
+    padding: 5rem 3.75rem 5rem 6.125rem;
+  }
+}
+
+/* ------------ /How section ----------*/
+/*----------------- /How It Works -------------*/
+/*------------- Calling ----------------*/
+.callToAction {
+  background: #9f5050;
+}
+.btn {
+	background-color: #d89708;
+
+}
+.btn:hover {
+  box-shadow: 4px 4px gold;
+}
+/*------------- /Calling ----------------*/
+/*------------ Order -------------*/
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: #280000;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.order.row .col-2 {
+  align-self: stretch;
+}
+.order.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #280000;
+  z-index: 1;
+}
+.order.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.order.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.order.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #280000;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #280000;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+/*------------- /Order ----------------*/
